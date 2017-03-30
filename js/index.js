@@ -5,6 +5,7 @@ var main = document.querySelector('main');
 var win = window;
 
 function openMenu(event) {
+ 
   circle.classList.toggle('active');
   ham.classList.toggle('material-close');
   main.classList.toggle('active');
@@ -27,4 +28,6 @@ function closeMenu() {
 }
 
 circle.addEventListener('click', openMenu, false);
+
 win.addEventListener('click', closeMenu, false);
+
