@@ -1,0 +1,301 @@
+.tool-box {
+	width: 300px;
+	height: 100%;
+	position: relative;
+	/*border: 1px solid #ccc;*/
+}
+
+.notice {
+	width: 300px;
+	height: 120px;
+	position: relative;
+	border: 1px solid #eaeaea;
+	border-bottom: none;
+}
+
+.notice-head {
+	height: 24px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	list-style: none;
+	overflow: hidden;
+}
+
+.notice-title {
+	width: 45px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	list-style: none;
+	text-align: center;
+	line-height: 22px;
+	font-size: 12px;
+	float: left;
+}
+
+.notice-title a {
+	text-decoration: none;
+	color: gray;
+}
+
+.notice-body {
+	height: 90px;
+	width: 300px;
+}
+
+.notice-info {
+	height: 70px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.notice-info li {
+	height: 25px;
+	width: 265px;
+	border: 1px solid #eaeaea;
+	margin-top: 5px;
+	margin-bottom: 7px;
+	text-align: center;
+	list-style: none;
+}
+
+.user {
+	width: 300px;
+	border: 1px solid #eaeaea; 
+	border-bottom: none;
+	float: left;
+}
+
+.name-pass {
+	width: 300px;
+	height: 100px;
+}
+
+#img {
+	width: 75px;
+	height: 75px;
+	background-color: #fc3906;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	float: left;
+}
+
+#blank {
+	width: 100px;
+	margin-top: 8px;
+	float: left;
+}
+
+.user-info {
+	width: 180px;
+	height: 25px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	border: 1px solid #eaeaea;
+	position: relative;
+	float: left;
+}
+
+.user-button {
+	width: 300px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.button {
+	width: 87px;
+	height: 25px;
+	background-color: #fc3906;
+	text-align: center;
+	line-height: 25px;
+	float: left;
+	margin-left: 9px;
+}
+
+.button a {
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+}
+
+.text {
+	width: 300px;
+	border: 1px solid #eaeaea;
+	border-bottom: none;
+	float: left;
+}
+
+#text-box {
+	width: 265px;
+	height: 25px;
+	border: 1px solid #eaeaea;
+	margin: 15px;
+}
+
+.content {
+	width: 300px;
+	float: left;
+	border: 1px solid #eaeaea;
+}
+
+.icon-pic {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url(//img.alicdn.com/tfs/TB1vQzVOVXXXXX4XpXXXXXXXXXX-220-1170.png);
+	background-repeat: no-repeat;
+}
+
+.content-l {
+	width: 40%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.leftlist {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+}
+
+#bigbox {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0px;
+	height: 149px;
+	border: 0px;
+}
+
+.icon a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #bbbbbb;
+	line-height: 18px;
+}
+
+.icon a span {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	margin-top: 15px;
+}
+
+.icon a p {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#big a span {
+	background-position: 0px 0px;
+	margin-top: 50px;
+}
+
+.smallbox {
+	box-sizing: border-box;
+	width: 50%;
+	height: 75px;
+	padding: 0px;
+	border-top: 1px solid #eaeaea;
+	float: left;
+}
+
+#l-1 a span {
+	background-position: 0px -308px;
+}
+
+#sbox-1 {
+	border-left: 1px solid #eaeaea;
+}
+
+#l-2 a span {
+	background-position: 0px -352px;
+}
+
+.content-r {
+	width: 60%;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.rightlist {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.box-9 {
+	box-sizing: border-box;
+	width: 33.33%;
+	height: 75px;
+	padding: 0px;
+	border-left: 1px solid #eaeaea;
+	float: left;
+}
+
+#box1-1 a span {
+	background-position: 0px -44px;
+}
+
+#box1-2 a span {
+	background-position: 0px -85px;
+}
+
+#box1-3 a span {
+	background-position: 0px -132px;
+}
+
+#box3-1 a span {
+	background-position: 0px -396px;
+}
+
+#box3-2 a span {
+	background-position: 0px -440px;
+}
+
+#box3-3 a span {
+	background-position: 0px -1146px;
+}
+
+.box-9-2 {
+	box-sizing: border-box;
+	width: 33.33%;
+	height: 75px;
+	padding: 0px;
+	border: 1px solid #eaeaea;
+	border-right: none;
+	float: left;
+}
+
+#box2-1 a span {
+	background-position: 0px -176px;
+}
+
+#box2-2 a span {
+	background-position: 0px -220px;
+}
+
+#box2-3 a span {
+	background-position: 0px -1052px;
+}
+
+
+
+
+
+
+
