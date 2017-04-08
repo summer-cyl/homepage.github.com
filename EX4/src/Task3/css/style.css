@@ -5,13 +5,18 @@ html {
 .ui-box-container {
 	display: flex;
 	flex-flow: row wrap;
-	width: 800px;
+	width: 1220px;
+	height: 810px;
+	margin: 20px;
+	border: 1px solid black;
+	justify-content: center;
+	align-content: space-around;
 }
 
 .ui-box {
 	display: flex;
-	width: 250px;
-	height: 220px;
+	width: 390px;
+	height: 370px;
 	margin-left: 4px;
 	margin-right: 4px;
 	margin-top: 8px;
@@ -23,20 +28,19 @@ html {
 .ui-box-img {
 	display: flex;
 	flex-grow: 3;
-	width: 250px;
-	/*height: 120px;*/
+	width: 390px;
+	height: 260px;
 	background-color: #e6e6e6;
 	/*border: 1px solid black;*/
 }
 
 .ui-box-content {
 	display: flex;
-	/*flex-grow: 0;*/
-	width: 250px;
-	/*height: 110px;*/
+	width: 390px;
+	height: 110px;
 	background-color: #ffffff;
-	/*border: 1px solid black;
-	border-top: none;*/
+	/*border: 1px solid black;*/
+	border-top: none;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
@@ -44,11 +48,9 @@ html {
 
 .ui-cnt-title {
 	display: flex;
-	flex-grow: 1;
-	width: 250px;
-	margin-top: 4px;
-	/*height: 20px;*/
-	/*margin: 4px;*/
+	width: 370px;
+	height: 20px;
+	margin: 4px;
 	background-color: #ffffff;
 	/*border: 1px solid black;*/
 	justify-content: flex-start;
@@ -59,19 +61,16 @@ html {
 	margin-left: 8px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 11px;
-	line-height: 17px;
+	font-size: 13px;
 	color: black; 
 	/*font-weight: bold;*/
 }
 
 .ui-cnt-info {
 	display: flex;
-	flex-grow: 1;
-	width: 250px;
-	/*margin: 1px;*/
-	/*height: 20px;*/
-	/*margin: 4px;*/
+	width: 370px;
+	height: 20px;
+	margin: 4px;
 	background-color: #ffffff;
 	/*border: 1px solid black;*/
 	justify-content: flex-start;
@@ -82,33 +81,29 @@ html {
 	margin-left: 8px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 11px;
-	line-height: 17px;
-	color: #f4004e; 
+	font-size: 13px;
+	color: #f40043; 
 	/*font-weight: bold;*/
 }
 
 .ui-cnt-info p span {
+	margin-left: 5px;
 	color: #b6bdca;
 }
 .ui-cnt-proinfo {
 	display: flex;
-	flex-grow: 1.5;
-	width: 250px;
-	margin-top: 5px;
-	/*padding-top: 5px;*/
-	/*padding: 5px;*/
-	/*height: 30px;*/
-	/*margin: 5px;*/
+	width: 370px;
+	height: 30px;
+	margin: 5px;
 	background-color: #ffffff;
 	/*border: 1px solid black;*/
-	align-items: flex-end;
+	align-items: center;
 	justify-content: space-between;
 }
 
 .ui-proinfo-price {
 	display: flex;
-	/*height: 25px;*/
+	height: 25px;
 	align-items: flex-end;
 }
 
@@ -117,8 +112,9 @@ html {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-size: 20px;
-	line-height: 25px;
-	color: #f4004e; 
+	font-family: Arial;
+	line-height: 20px;
+	color: #f40043; 
 	font-weight: bold;
 }
 
@@ -131,28 +127,30 @@ html {
 	margin-left: 5px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 10px;
-	line-height: 15px;
+	font-size: 13px;
+	line-height: 10px;
 	text-decoration: line-through;
 	color: #b6bdca; 
 }
 
 .ui-proinfo-sales {
 	display: flex;
-	/*height: 25px;*/
+	height: 25px;
 	align-items: flex-end;
 }
 
 .ui-proinfo-sales p {
-	margin-right: 10px;
+	/*margin-right: 10px;*/
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-size: 10px;
-	line-height: 15px;
+	font-size: 13px;
+	line-height: 10px;
 	color: #b6bdca; 
 }
 
 .ui-proinfo-sales p span {
+	font-weight: bold;
+	font-family: Arial;
 	color: #f4004e;
 }
 
