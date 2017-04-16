@@ -1,0 +1,83 @@
+.ui-AnimatedTable {
+	display: flex;
+	flex-flow: column;
+	width: 380px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 5px #666;
+	border-radius: 10px;
+	margin-left: 5%;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+.Tr {
+	display: flex;
+	border: 1px solid #eee;
+	box-shadow: 0 0 3px #666;
+	height: 30px;
+	margin-left: 40px;
+	margin-bottom: 15px;
+	width: 300px;
+}
+
+.pos {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 100%;
+	box-sizing: border-box;
+	border-right: 1px solid #eee;
+	box-shadow: 0 0 3px #666;
+	text-align: center;
+	line-height: 30px;
+	margin: 0px;
+	color: #666;
+}
+
+.input {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 100%;
+	box-sizing: border-box;
+	border-right: 1px solid #eee;
+	box-shadow: 0 0 3px #666;
+	text-align: center;
+	line-height: 30px;
+	margin: 0px;
+}
+
+.delbtn {
+	display: block;
+	float: left;
+	width: 70px;
+	height: 100%;
+	box-shadow: 0 0 3px #666;
+	text-align: center;
+	line-height: 30px;
+	margin: 0px;
+	color: #666;
+}
+
+.addbtn {
+	margin: 30px;
+	margin-top: 10px;
+	width: 350px;
+	height: 25px;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+p {
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	box-shadow: 0 0 3px #666;
+	margin: 0px;
+	margin-right: 20px;
+	color: #666;
+}
