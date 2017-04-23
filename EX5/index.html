@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>EX5</title>
+		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="ui-Timetable">
+			<div class="ui-header">
+				<p id="route1">经路1</p>
+				<p id="morning">早</p>
+			</div>
+			<div class="ui-summary">
+				<div class="ui-summary-1">
+					<div id="time_gap">
+						<span>08:43</span>
+						発
+						<span> → </span>
+						<span>09:43</span>
+						着
+					</div>
+					<div id="price">
+						総額
+						<span>6,560円</span>
+					</div>
+				</div>
+				<div class="ui-summary-2">
+					<div id="total_time">
+						所要时间
+						<span>1時間0分</span>
+					</div>
+					<div id="riding_time">
+						乘车时间
+						<span>54分</span>
+					</div>
+					<div id="transfer_times">
+						乗換
+						<span>1回</span>
+					</div>
+					<div id="distance">
+						距离
+						<span>190.4km</span>
+					</div>
+				</div>
+			</div>
+			<div class="ui-handle">
+				<i class="fa fa-print" id="print"></i><span>打印</span>
+				<i class="fa fa-file-text fa-rotate-180 fa-flip-vertical" id="file"></i><span>详单</span>
+			</div>
+			<div class="ui-route">
+				<table class="ui-route-table">
+					<tr class="ui-Rtb-mode">
+						<td class="d1"></td>
+						<td class="d2"></td>
+						<td class="d3"></td>
+						<td class="d4"></td>
+						<td class="d5"></td>
+						<td class="d6"></td>
+						<td class="d7"></td>
+						<td class="d8"></td>
+						<td class="d9"></td>
+					</tr>
+					<tr class="ui-Rtb-head">
+						<th colspan="5">经路</th>
+						<th>乘车位置</th>
+						<th>费用</th>
+						<th>指定席/费用</th>
+						<th>距离</th>
+					</tr>
+					<tr class="ui-Rtb-station">
+						<td class="time">
+							<i class="fa fa-cloud"></i>
+						</td>
+						<td class="icon">
+							<div class="blue_sq"></div>
+						</td>
+						<td class="name" colspan="2">名古屋</td>
+						<td class="blank1"></td>
+						<td class="state">17番線発</td>
+						<td class="link" colspan="3">
+						<div class="link_box">
+							<a href="">时刻表</a>
+							<a href="">车站图</a>
+							<a href="">路线图</a>
+							<a href="">地图</a>
+						</div>
+							
+						</td>
+					</tr>
+					<tr class="ui-Rtb-info">
+						<td class="time_info">
+							<span>08:43-09:33</span>
+							<br>
+							50分
+						</td>
+						<td class="icon">
+							<div class="train_track">
+								<div class="track_blank"></div>
+								<div class="track_blank"></div>
+								<div class="track_blank"></div>
+							</div>
+						</td>
+						<td class="bus_icon">
+							<i class="fa fa-bus" id="bus_icon1"></i>
+						</td>
+						<td class="bus_info" colspan="2">(新大阪行)</td>
+						<td class="blank"></td>
+						<td class="price_info"><span>3,350円</span></td>
+						<td class="order_info">
+							指定席
+							<br>
+							3,210円 
+						</td>
+						<td class="dis_info">186.6km</td>
+					</tr>
+					<tr class="ui-Rtb-station">
+						<td class="time" id="ac_time">
+							（6分）
+						</td>
+						<td class="icon">
+							<div class="blue_sq2">
+								<div class="sq2_blank"></div>
+							</div>
+						</td>
+						<td class="name" colspan="2">新大阪</td>
+						<td class="blank1"></td>
+						<td class="state">
+							23番線着
+							<br>
+							16番線発	
+						</td>
+						<td class="link" colspan="3">
+						<div class="link_box">
+							<a href="">时刻表</a>
+							<a href="">车站图</a>
+							<a href="">线路图</a>
+							<a href="">地图</a>
+						</div>
+							
+						</td>
+					</tr>
+					<tr class="ui-Rtb-info">
+						<td class="time_info">
+							<span>09:39-09:43</span>
+							<br>
+							4分
+						</td>
+						<td class="icon">
+							<div class="train_track">
+								<div class="track_blank"></div>
+								<div class="track_blank"></div>
+								<div class="track_blank"></div>
+							</div>
+						</td>
+						<td class="bus_icon">
+							<i class="fa fa-bus" id="bus_icon2"></i>
+						</td>
+						<td class="bus_info" colspan="2">(姬路行)</td>
+						<td class="blank"></td>
+						<td class="price_info">
+							<span><i class="fa fa-long-arrow-down"></i></span>
+						</td>
+						<td class="order_info"></td>
+						<td class="dis_info">3.8km</td>
+					</tr>
+					<tr class="ui-Rtb-station">
+						<td class="time">
+							<i class="fa fa-cloud"></i>
+						</td>
+						<td class="icon">
+							<div class="blue_sq"></div>
+						</td>
+						<td class="name" colspan="2">大阪</td>
+						<td class="blank1"></td>
+						<td class="state">5番線着</td>
+						<td class="link" colspan="3">
+						<div class="link_box">
+							<a href="">车站图</a>
+							<a href="">线路图</a>
+							<a href="">地图</a>
+						</div>
+							
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+	<script src="lib//jQuery/jquery-3.2.1.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</html>

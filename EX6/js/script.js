@@ -1,5 +1,6 @@
 $(init)
-function init() {
+function init(e) {
+	e.preventDefault();
 	var $Show = $("<div class='Show'></div>");
 	var $img = $("<img>");
 	var $description = $("<p></p>");

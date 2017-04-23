@@ -1,0 +1,363 @@
+ * {
+	font-family: ;
+ }
+
+.ui-Timetable {
+	width: 685px;
+}
+
+/* ---------- ui-header ---------*/
+.ui-header {
+	border-bottom: 4px solid #1b88c4;
+	display: flex;
+}
+
+#route1 {
+	width: 80px;
+	height: 21px;
+	margin: 0px;
+	padding-top: 5px; 
+	line-height: 21px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 3px 3px 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, from(#3095ce), to(#1b88c4));
+	background: linear-gradient(#3095ce, #1b88c4);
+	background: -o-linear-gradient(top, #3095ce, #1b88c4);
+	background: -moz-linear-gradient(top, #3095ce, #1b88c4);
+}
+
+#morning {
+	width: 21px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 3px;
+	margin: 1px 0 0 6px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fa7b1b), to(#fc3408));
+	background: linear-gradient(#fa7b1b, #fc3408);
+	background: -o-linear-gradient(top, #fa7b1b, #fc3408);
+	background: -moz-linear-gradient(top, #fa7b1b, #fc3408);
+}
+
+
+/* ---------- ui-summary ---------*/
+
+.ui-summary {
+	border: 1px solid #cbcbcb;
+	border-top: 0;
+	padding: 5px 0 6px 8px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f3f3));
+    background: -moz-linear-gradient(top, #fff, #f2f3f3);
+    background: -o-linear-gradient(top, #fff, #f2f3f3);
+    background: linear-gradient(#fff, #f2f3f3);
+}
+
+/* --- ui-summary-1 --*/
+.ui-summary-1 {
+	display: flex;
+	font-size: 14px;
+	line-height: 19px;
+	color: #5d5d5d;
+	padding: 3px 0 0 0;
+}
+
+#time_gap {
+	color: #cf000d;
+	padding: 0 20px 0 0;
+}
+
+#time_gap span {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#price span {
+	color: #cf000d;
+	font-weight: bold;
+	padding-left: 4px;
+}
+
+/* --- ui-summary-2 --*/
+.ui-summary-2 {
+	display: flex;
+	font-size: 14px;
+	line-height: 19px;
+	color: #5d5d5d;
+	padding: 3px 0 0 0;
+}
+
+.ui-summary-2 span {
+	padding-left: 4px;
+	font-weight: bold;
+	color: #cf000d;
+}
+
+#riding_time span, #distance span {
+	color: #000;
+}
+
+#total_time, #riding_time, #transfer_times, #distance {
+	padding: 0 25px 0 0;
+}
+
+/* ---------- ui-handle ---------*/
+.ui-handle {
+	padding: 1px 10px 2px 8px;
+	border: 1px solid #cecbce;
+	border-top: 0;
+	background-color: #fffcde;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.ui-handle .fa {
+	width: 20px;
+	height: 16px;
+	margin-left: 15px;
+	color: #666;
+	text-shadow: 1px -1px 0 #eee;
+}
+
+.ui-handle span {
+	font-size: 14px;
+	text-decoration: underline;
+	color: #0018bd;
+}
+
+#file {
+	width: 17px;
+	font-size: 14px;
+	}
+
+/* ---------- ui-route ---------*/
+.ui-route {
+	margin-top: 5px;
+}
+
+.ui-route-table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+/* ----- ui-Rtb-mode ----*/
+.d1 {
+	width: 118px;
+}
+
+.d2 {
+	width: 15px;
+}
+
+.d3 {
+	width: 15px;
+}
+
+.d5 {
+	width: 57px;
+}
+
+.d6 {
+	width: 80px;
+}
+
+.d7 {
+	width: 87px;
+}
+
+.d8 {
+	width: 100px;
+}
+
+.d9 {
+	width: 80px;
+}
+
+/* ----- ui-Rtb-head ----*/
+.ui-Rtb-head th {
+	background-color: #cedce8;
+	color: #617a90;
+	border: 1px solid #fff;
+	border-width: 0 1px 1px 0;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+/* ----- ui-Rtb-station ----*/
+.ui-Rtb-station {
+	border-collapse: collapse;
+	font-size: 14px;
+	height: 46px;
+}
+
+.ui-Rtb-station td {
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #bbb;
+	background-color: #f2f2f2;
+}
+
+.time {
+	border-left: 1px solid #c0c0c0;
+	text-align: right;
+	padding-right: 8px;
+}
+
+.ui-Rtb-station #ac_time {
+	text-align: center;
+}
+
+.fa-cloud {
+	color: #fff;
+	text-shadow: 0 0 3px #239ce1;
+	line-height: 46px;
+}
+
+.ui-Rtb-station .icon {
+	padding: 3px 0 4px 0;
+}
+
+.blue_sq {
+	display: inherit;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #fff;
+    background: -webkit-linear-gradient(To bottom, #4fb8e5 0%, #2994da 50%, #177bd0 51%, #2e9fd9 100%); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(To bottom, #4fb8e5 0%, #2994da 50%, #177bd0 51%, #2e9fd9 100%); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(To bottom, #4fb8e5 0%, #2994da 50%, #177bd0 51%, #2e9fd9 100%); /* Firefox 3.6 - 15 */
+    background: linear-gradient(To bottom, #4fb8e5 0%, #2994da 50%, #177bd0 51%, #2e9fd9 100%); /* 标准的语法（必须放在最后） */
+}
+
+.blue_sq2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 13px;
+	height: 13px;
+    background: -webkit-linear-gradient(To bottom, #4fb8e5 0%, #2994da 50%, #177bd0 51%, #2e9fd9 100%); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(To bottom, #4fb8e5 0%, #2994da 50%, #177bd0 51%, #2e9fd9 100%); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(To bottom, #4fb8e5 0%, #2994da 50%, #177bd0 51%, #2e9fd9 100%); /* Firefox 3.6 - 15 */
+    background: linear-gradient(To bottom, #4fb8e5 0%, #2994da 50%, #177bd0 51%, #2e9fd9 100%); /* 标准的语法（必须放在最后） */
+}
+
+.sq2_blank {
+	width: 7px;
+	height: 7px;
+	background: #fff;
+}
+
+.name {
+	padding-left: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.state {
+	text-align: center;
+}
+
+.link {
+	border-right: 1px solid #c0c0c0;
+	padding-right: 13px;
+}
+
+.link_box {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.link_box a {
+	margin-left: 8px;
+	color: #0018bd;
+}
+
+/* ----- ui-Rtb-info ----*/
+.ui-Rtb-info {
+	border-collapse: collapse;
+	font-size: 14px;
+	height: 46px;
+}
+
+.ui-Rtb-info span {
+	font-weight: bold;
+}
+
+.time_info, .bus_info, .blank, .price_info, .order_info, .dis_info {
+	border-right: 1px solid #cdcdcd;
+	text-align: center;
+}
+
+/* -- 时间信息 --*/
+ .time_info {
+ 	border: 0;
+ }
+
+/* -- 铁轨标记 --*/
+.ui-Rtb-info .icon {
+	padding: 0 2px 0 0;
+	display: flex;
+	justify-content: center;
+}
+
+.train_track {
+	width: 6px;
+	height: 46px;
+	padding: 0;
+	background-color: #97c7d8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.track_blank {
+	width: 2px;
+	height: 8px;
+	background-color: #fff;
+	margin-top: 8px;
+}
+
+#bus_icon1 {
+	color: #1596ff;
+}
+
+#bus_icon2 {
+	color: #15905e;
+}
+
+/* -- 车次信息 --*/
+.bus_info {
+	text-align: left;
+	color: #0a67a3;
+}
+
+/* -- 空白格 --*/
+.track_blank {
+
+}
+
+/* -- 距离 --*/
+ .dis_info{
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
