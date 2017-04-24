@@ -61,7 +61,7 @@
 .ui-summary-1 {
 	display: flex;
 	font-size: 14px;
-	line-height: 19px;
+	line-height: 16px;
 	color: #5d5d5d;
 	padding: 3px 0 0 0;
 }
@@ -86,7 +86,7 @@
 .ui-summary-2 {
 	display: flex;
 	font-size: 14px;
-	line-height: 19px;
+	line-height: 16px;
 	color: #5d5d5d;
 	padding: 3px 0 0 0;
 }
@@ -137,7 +137,7 @@
 
 /* ---------- ui-route ---------*/
 .ui-route {
-	margin-top: 5px;
+	margin-top: 3px;
 }
 
 .ui-route-table {
@@ -192,7 +192,7 @@
 .ui-Rtb-station {
 	border-collapse: collapse;
 	font-size: 14px;
-	height: 46px;
+	height: 42px;
 }
 
 .ui-Rtb-station td {
@@ -214,7 +214,7 @@
 .fa-cloud {
 	color: #fff;
 	text-shadow: 0 0 3px #239ce1;
-	line-height: 46px;
+	line-height: 42px;
 }
 
 .ui-Rtb-station .icon {
@@ -279,7 +279,7 @@
 .ui-Rtb-info {
 	border-collapse: collapse;
 	font-size: 14px;
-	height: 46px;
+	height: 42px
 }
 
 .ui-Rtb-info span {
@@ -305,7 +305,7 @@
 
 .train_track {
 	width: 6px;
-	height: 46px;
+	height: 42px;
 	padding: 0;
 	background-color: #97c7d8;
 	display: flex;
@@ -333,6 +333,10 @@
 /* -- 车次信息 --*/
 .bus_info {
 	text-align: left;
+	color: #0a67a3;
+}
+
+.bus_info a {
 	color: #0a67a3;
 }
 
