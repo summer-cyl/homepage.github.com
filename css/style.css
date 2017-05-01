@@ -115,6 +115,13 @@ nav a {
   font-weight: 300;
 }
 
+nav .task a {
+  text-decoration: none;
+  font-size: 2vw;
+  color: tomato;
+  font-weight: 300;
+}
+
 .material-hamburger {
   transition: all .3s ease-out;
 }
