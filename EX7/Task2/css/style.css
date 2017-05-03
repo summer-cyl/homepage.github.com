@@ -1,4 +1,4 @@
-body {
+html {
 	font-size: 12px;
 	line-height: 18px;
 	color: #515151;
@@ -14,7 +14,7 @@ body {
 }
 
 .navi-container {
-	padding: 0 110px 0 120px;
+	padding: 10px 70px 10px 90px;
 }
 
 #bs-example-navbar-collapse-1 {
@@ -22,11 +22,40 @@ body {
 	flex-direction: row;
 	align-items: center;
 	align-content: center;
-	padding-top: 20px;
+	min-width: 960px;
+	min-height: 60px;
+}
+
+.nav-pills {
+	min-width: 600px;
+	height: 40px;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.nav-pills li a{
+	height: 40px;
+	padding: 10px;
+}
+
+.com {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	align-items: flex-end;
+}
+
+.head-detail {
+	width: 100px;
+	height: 20px;
+	line-height: 15px;
+	float: right;
+	font-size: 13px;
+	padding-left: 0px; 
 }
 
 .col-lg-6 {
-	padding-top: 10px;
+	padding-top: 3px;
 }
 
 .main-container {
