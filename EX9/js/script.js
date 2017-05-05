@@ -51,14 +51,14 @@ local.setMarkersSetCallback(function(pos) {
 
 
 var markerArr = [  
-	{ title: "杭州师范大学", point: "120.01428,30.295129", address: "体育场", img: "../img/666666.png" },  
-	{ title: "杭州师范大学", point: "120.012313,30.296267", address: "篮球场", img: "../img/666666.png" },  
-	{ title: "杭州师范大学", point: "120.019122,30.296399", address: "一鸣真鲜奶吧", img: "../img/666666.png" },  
-	{ title: "杭州师范大学", point: "120.020407,30.295698", address: "恕园2号楼", img: "../img/666666.png" },
-	{ title: "杭州师范大学", point: "120.019014,30.295269", address: "恕园7号楼", img: "../img/666666.png" },
-	{ title: "杭州师范大学", point: "120.020029,30.294879", address: "阿里巴巴商学院", img: "../img/666666.png" },
-	{ title: "杭州师范大学", point: "120.017721,30.296688", address: "恕园19号楼", img: "../img/666666.png" },
-	{ title: "杭州师范大学", point: "120.01622,30.296649", address: "学生事务服务中心", img: "../img/666666.png" }
+	{ title: "杭州师范大学", point: "120.01428,30.295129", address: "体育场", pic: "img/666666.png" },  
+	{ title: "杭州师范大学", point: "120.012313,30.296267", address: "篮球场", pic: "img/666666.png" },  
+	{ title: "杭州师范大学", point: "120.019122,30.296399", address: "一鸣真鲜奶吧", pic: "img/666666.png" },  
+	{ title: "杭州师范大学", point: "120.020407,30.295698", address: "恕园2号楼", pic: "img/666666.png" },
+	{ title: "杭州师范大学", point: "120.019014,30.295269", address: "恕园7号楼", pic: "img/666666.png" },
+	{ title: "杭州师范大学", point: "120.020029,30.294879", address: "阿里巴巴商学院", pic: "img/666666.png" },
+	{ title: "杭州师范大学", point: "120.017721,30.296688", address: "恕园19号楼", pic: "img/666666.png" },
+	{ title: "杭州师范大学", point: "120.01622,30.296649", address: "学生事务服务中心", pic: "img/666666.png" }
 ];
 
 for (var i = 0; i < markerArr.length; i++) {  
@@ -88,7 +88,7 @@ function addInfoWindow(marker, poi) {
     html.push('<td style="vertical-align:top;line-height:16px">' + poi.address + ' </td>');   
     html.push('</tr>');  
     html.push('<tr>');
-    html.push('<td style="vertical-align:top;line-height:16px;padding: 10px 0 0 30px">' + '<img src="' +poi.img + '", style="width: 160px;height: 100px">' + ' </td>');
+    html.push('<td style="vertical-align:top;line-height:16px;padding: 10px 0 0 30px">' + '<img src="' + poi.pic + '", style="width: 160px;height: 100px">' + ' </td>');
     html.push('</tr>'); 
     html.push('</tbody></table>');  
     var infoWindow = new BMap.InfoWindow(html.join(""), { title: title, width: 200 });  
