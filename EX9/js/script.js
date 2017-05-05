@@ -16,10 +16,13 @@ map.enableContinuousZoom();
 var local = new BMap.LocalSearch(map, {
 	renderOptions: {
 		map: map,
+		panel: "Result-Box"
 	}
 });
-
 local.searchNearby("宾馆", "西湖景区");
+
+
+
 var start="杭州师范大学仓前新校区";
 var transit = new BMap.TransitRoute(map, {
 	renderOptions: {
