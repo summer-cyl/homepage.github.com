@@ -1,7 +1,23 @@
-body, html, #myMap {
+body, html {
 	width: 100%;
+	height: 100%;
+	/*overflow: hidden;*/
+	margin:0;
+	font-family:"微软雅黑";
+}
+
+#Map-Container {
+	float: left;
+	width: 75%;
 	height: 100%;
 	overflow: hidden;
 	margin:0;
 	font-family:"微软雅黑";
+}
+
+#Result-Box {
+	width: 25%;
+	height: 100%;
+	font-size: 12px;
+	overflow: scroll;
 }
